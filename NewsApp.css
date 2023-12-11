@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Lumanosimo&family=Noto+Sans+Cypro+Minoan&family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Lumanosimo&family=Noto+Sans+Cypro+Minoan&family=Roboto+Slab&family=Roboto:ital,wght@1,300&display=swap');
+/* ================== navbar =================================== */
+.container-fluid>a{
+    background-color: #cc0000;
+    padding: 2px 8px;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+li>button:hover {
+    background-color: rgba(45, 45, 251, 0.774);
+    color: red;
+    border-radius: 10px;
+}
+
+.shadow{
+    box-shadow: 0 0 10px rgba(0,0,0,3.1);
+}
+
+.collapse{
+    transition: width 1s ease-in-out;
+}
+
+/* =================carousel=================== */
+#carousel {
+    width: 78vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    overflow: hidden;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 65px;
+    background-size: cover;
+    background-position: center center;
+    background-color: blue;
+}
+
+.slide img{
+    width: 78vw;
+    background-size: contain;
+    background-position: center center;
+    height: 450px;
+}
+
+.title{
+    font-size: 1.5rem;
+    /* border: 2px solid red; */
+    text-align: center;
+    margin: 4px;
+    padding: 2px 2px;
+    box-sizing:border-box ;
+    font-family: 'Roboto Slab', serif;
+}
+@media screen and (max-width:600px){
+    
+    .title{
+        font-size: 1.2rem;
+        font-weight: 600;
+
+    }
+}
+
+
+/* =============================maincontainer==================== */
+.maincontainer {
+    display: flex;
+    width: 90vw;
+    flex-wrap: wrap;
+    padding: 5px 0;
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    /* margin-top: 1rem; */
+}
+.main-card{
+    transition: all 0.3s ease-in-out;
+    opacity: .91;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.main-card:hover{
+    transform: scale(1.07);
+    opacity: 2;
+    z-index: 3;
+}
+.author {
+    background-color: #e2e2e2;
+    border-radius: 3px;
+    padding: 3px;
+    display: inline;
+}
+
+.smallbox {
+    display: flex;
+    justify-content: space-between;
+    width: 16rem;
+}
+
+.smallbox>p {
+    font-size: larger;
+    font-weight: 600;
+}
+
+#mainimg {
+    height: 150px;
+}
+
+/* ================================footer========================== */
+#footer {
+    background-color: rgb(39, 39, 42);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    font-size: 1rem;
+    font-weight: 400;
+    position: relative;
+    color: white;
+    bottom: 0;
+
+}
