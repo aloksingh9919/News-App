@@ -28,7 +28,7 @@ li>button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 450px;
+    height: 400px;
     overflow: hidden;
     border-radius: 4px;
     margin: auto;
@@ -42,16 +42,18 @@ li>button:hover {
     width: 78vw;
     background-size: contain;
     background-position: center center;
-    height: 450px;
+    height: 400px;
 }
 
 .title{
+    
     font-size: 1.5rem;
     /* border: 2px solid red; */
     text-align: center;
     margin: 4px;
     padding: 2px 2px;
     box-sizing:border-box ;
+    font-weight: bold;
     font-family: 'Roboto Slab', serif;
 }
 @media screen and (max-width:600px){
