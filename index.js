@@ -2,7 +2,7 @@ window.addEventListener("DOMContentLoaded", (e) => {
   // e284532b259847f0be14d7edfead684e//
   function fetchnews(general) {
     // const url = `https://newsapi.org/v2/top-headlines?country=in&category=${general}&apiKey=e284532b259847f0be14d7edfead684e`;
-    fetch(`https://newsapi.org/v2/top-headlines?country=in&category=${general}&apiKey=e284532b259847f0be14d7edfead684e`)
+    fetch(`https://newsapi.org/v2/top-headlines?country=us&category=${general}&apiKey=e284532b259847f0be14d7edfead684e`)
       .then((res) => {
         return res.json();
       })
